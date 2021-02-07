@@ -1,0 +1,1 @@
+This is my first step in my programming journey. This will be a sort of time capsule file that I can use to compare my coding skills then to now. This project will involve recreating the google home page. Let's not waste any more time, let's get to coding!
