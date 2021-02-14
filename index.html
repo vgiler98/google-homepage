@@ -14,14 +14,40 @@
 .align-center{
     text-align: center;
     position:relative;
-    top: 100px;
+    top: 160px;
+}
+.align-center-box{
+    text-align: center;
+    position: relative;
+    top: 180px;
+    right: -400px;
+}
+.searchbar-size{
+    height: 50px;
+    width: 600px;
+}
+.searchicon-size{
+    position: absolute;
+    top:6px;
+    left:8px;
+    width: 30;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    min-width: 100px;
 }
 </style>
 <p class="align-center">
 <img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
 </p>
+<div class="align-center-box">
+    <div class="wrapper">
+    <input class="searchbar-size" type="text" placeholder="">
+    <img class="searchicon-size"src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png" alt="Search bar icon">
+    </div>
+</div>
 <div>
-    <input type="text" placeholder="">
     <button type="button">Google Search</button>
     <button type="button">I'm feeling lucky</button>
 </div>
