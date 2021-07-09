@@ -33,16 +33,16 @@
     right: -400px;
 }
 .searchbar-size{
-    height: 40px;
+    height: 35px;
     width: 600px;
     border-radius: 40px;
     border-width: 0.01px;
 }
 .searchicon-size{
     position: absolute;
-    top:12px;
-    left:8px;
-    width: 20px;
+    top:10px;
+    left:12px;
+    width: 15px;
 }
 .wrapper{
     position: relative;
@@ -55,14 +55,14 @@
     left: 550px;
 }
 .button-lucky-search{
-    background-color: #e7e7e7;
+    background-color: #F1F1F1;
     border: none;
     color: black;
-    padding: 10px 24px;
+    padding: 6px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size:16px;
+    font-size:14px;
 }
 .button-sign-in{
     background-color: #4285F4;
@@ -76,16 +76,21 @@
 }
 .bottom-left{
     position:relative;
-    top:510px;
-    right: 40px;
+    top:520px;
+    right: 70px;
 }
 .bottom-right{
     position:relative;
-    top: 490px;
-    left: 1200px;
+    top: 500px;
+    left: 1150px;
 }
 .google-app{
     width: 15px;
+}
+.google-space{ 
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
 }
 </style>
 <p class="align-center">
@@ -101,22 +106,22 @@
     <button type="button"class="button-lucky-search">Google Search</button>
     <button type="button"class="button-lucky-search">I'm feeling lucky</button>
 </div>
-<div class="top-left-corner">
+<div class="top-left-corner google-space" style="width: 100px;">
 <a href="">About</a>
 <a href="">Store</a>
 </div>
-<div class="top-right-corner">
+<div class="top-right-corner google-space" style="align-items: center; width: 250px;">
 <a href="">Gmail</a>
 <a href="">Images</a>
 <a href=""><img class="google-app"src="https://icon-library.com/images/google-apps-icon-png/google-apps-icon-png-28.jpg"></a>
 <button type="button" class="button-sign-in">Sign in</button>
 </div>
-<div class="bottom-left">
+<div class="bottom-left google-space">
 <a href="">Advertising</a>
 <a href="">Business</a>
 <a href="">How Search works</a>
 </div>
-<div class="bottom-right">
+<div class="bottom-right google-space" style="width: 200px;">
 <a href="">Privacy</a>
 <a href="">Terms</a>
 <a href="">Settings</a>
